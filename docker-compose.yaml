@@ -17,8 +17,8 @@ services:
     container_name: pgadmin_container
     image: dpage/pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: "korobok@gmail.com"
-      PGADMIN_DEFAULT_PASSWORD: "korobok5484"
+      PGADMIN_DEFAULT_EMAIL: "admin@gmail.com"
+      PGADMIN_DEFAULT_PASSWORD: "admin548"
       PGADMIN_LISTEN_PORT: 80
     volumes:
       - pgadmin-data:/var/lib/pgadmin
