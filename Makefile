@@ -1,7 +1,7 @@
  MANAGE = python3 manage.py
 
  run:
-	sudo docker-compose up --build
+	sudo docker-compose up --build -d
 
 
  back:
