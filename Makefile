@@ -9,6 +9,3 @@
 	${MANAGE} migrate
 	${MANAGE} initadmin
 	${MANAGE} runserver 0.0.0.0:8000
-
-p:
-	ls
